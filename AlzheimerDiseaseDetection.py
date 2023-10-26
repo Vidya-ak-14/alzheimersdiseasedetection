@@ -10,7 +10,7 @@ Created on Sun Oct 22 17:26:07 2023
 import numpy as np
 import pickle
 import streamlit as st
-loaded_model=pickle.load(open('E:/machinelearning/VotingClassifierfinal.pkl', 'rb'))
+loaded_model=pickle.load(open('VotingClassifierfinal.pkl', 'rb'))
 def alzheimer_prediction(input_data):
     
     
